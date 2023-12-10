@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #e6e6e6;
+}
+
+.header{
+  background-color:#ff5005;
+}
+
+.firstheader{
+  display: flex;
+
+}
+
+.left{
+  display:flex;
+  color: white;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 125px;
+}
+
+
+.right{
+  display:flex;
+  color: white;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: auto;
+  margin-right: 125px;
+}
+
+.mainheader{
+  background: linear-gradient(#ff5005,#ff773d)
+}
+
+.shopeelogo {
+width:150px;
+height:50px;
+float:left;
+margin-left:125px;
+margin-top: -4px;
+}
+
+.search{
+  margin-right: 250px;
+  border: solid;
+  background-color: white;
+  border-color: transparent;
+  padding-top: -30px;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 300px;
+  margin-top: 10px;
+}
+
+.firstorder{
+  color: gray;
+  font-size: 18px;
+  margin-bottom: 1%;
+  margin-left: 4px;
+}
+
+#search {
+  width: 85px;
+  float: right;
+  margin-top: -47px;
+  margin-right: 3px;
+  border-radius: 5px;
+}
+
+#shopeecart {
+width:30px;
+height:30px;
+margin-top: -30px;
+margin-right: -90px;
+float:right;
+}
+
+.recommendation-container{
+  display:flex;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.recommendation{
+  color:white;
+  font-size: 13px;
+}
+
+.secondpart{
+  background-color:white;
+}
+
+.promo{
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:20px;
+    padding-bottom:10px;
+    background-color: white;
+}
+
+.lpromo{
+  margin-left:-10px
+}
+
+.lpromo, .rpromo{
+    border-collapse: collapse;
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+.firstpromo {
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
+
+.secondpromo{
+  margin-left: 5px;
+}
+
+.menus{
+  display: flex;
+  justify-content:center;
+
+}
+.menu{
+  margin-right:15px;
+  margin-top: 15px;
+  text-align: center;
+  width: 120px;
+}
+
+.categoryitem{
+  display: flex;
+  margin-top: 100px;
+  padding:auto;
+}
+.item{
+  border: solid;
+  border-color: white;
+  border-radius: 1px;
+  margin-right:0px;
+  margin-top: 0px;
+  text-align: center;
+  width: 100%;
+}
